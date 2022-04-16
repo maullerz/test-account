@@ -7,7 +7,7 @@ export const Root = styled.div`
   width: 100%;
   min-width: 1074px;
 
-  margin: 20rem;
+  margin: 4em;
 
-  font-size: 24px;
+  font-size: 20px;
 `
