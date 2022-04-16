@@ -35,12 +35,8 @@ module.exports = {
 
   output: {
     path: outputDir,
-    pathinfo: false,
     publicPath: '/',
     filename: '[name].js',
-    // https://github.com/webpack/webpack/issues/11660
-    // chunkLoading: false,
-    wasmLoading: false,
   },
 
   resolve: {

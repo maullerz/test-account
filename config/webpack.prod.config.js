@@ -42,7 +42,7 @@ module.exports = {
 
   output: {
     path: outputDir,
-    publicPath: '/',
+    publicPath: '/account',
     // Unfortunately Webpack have issues with contenthash currently
     // It changes on repeated builds even if content not changed
     // https://github.com/webpack/webpack/issues/9520
