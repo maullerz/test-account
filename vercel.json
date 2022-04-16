@@ -3,6 +3,10 @@
     {
       "source": "/landing/:path*",
       "destination": "https://test-next-navy.vercel.app/:path*"
+    },
+    {
+      "source": "/:path((?!account/).*)",
+      "destination": "https://test-next-navy.vercel.app/:path*"
     }
   ]
 }
