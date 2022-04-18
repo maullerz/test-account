@@ -5,7 +5,7 @@
       "destination": "/:path*"
     },
     {
-      "source": "/:path((?!account/).*)",
+      "source": "/nextjs/:path*",
       "destination": "https://test-next-navy.vercel.app/:path*"
     }
   ]
