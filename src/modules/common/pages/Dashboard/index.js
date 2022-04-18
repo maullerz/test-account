@@ -11,7 +11,7 @@ const Dashboard = () => {
       <div>
         Client Side Routing (doesn&apos;t work with rewrites):
       </div>
-      <Link to='/nextjs'>
+      <Link to='/'>
         Return to Landing
       </Link>
 
@@ -20,7 +20,7 @@ const Dashboard = () => {
       <div>
         Standard Routing:
       </div>
-      <a href='/nextjs'>
+      <a href='/'>
         Return to Landing
       </a>
     </Root>
