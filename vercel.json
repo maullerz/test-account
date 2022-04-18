@@ -1,11 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/landing/:path*",
-      "destination": "https://test-next-navy.vercel.app/:path*"
-    },
-    {
-      "source": "/:path((?!account/).*)",
+      "source": "/:path((?!account/)|(?!.*.js).*)",
       "destination": "https://test-next-navy.vercel.app/:path*"
     }
   ]
