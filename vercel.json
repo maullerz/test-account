@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/account-new/:path*",
-      "destination": "/account/:path*"
+      "source": "/account/:path*",
+      "destination": "/:path*"
+    },
+    {
+      "source": "/:path((?!account/).*)",
+      "destination": "https://test-next-navy.vercel.app/:path*"
     }
   ]
 }
